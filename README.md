@@ -1,5 +1,12 @@
-### Hi there 👋
+<style>
+    /* testing style on github page */
+    *{outline: 1px solid red;}
+</style>
+<script>
+    alert('testing github javascript');
+</script>
 
+[Brandon Weigand](https://brandonweigand.github.io/BrandonWeigand/)
 <!--
 **BrandonWeigand/BrandonWeigand** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
