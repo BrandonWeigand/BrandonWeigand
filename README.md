@@ -7,6 +7,8 @@
 </script>
 
 [Brandon Weigand](https://brandonweigand.github.io/BrandonWeigand/)
+
+<img src="./bug.svg" alt="left face" align="left" width="42" height="42"> 
 <!--
 **BrandonWeigand/BrandonWeigand** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
