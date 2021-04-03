@@ -1,21 +1,29 @@
+<!--**BrandonWeigand/BrandonWeigand** (this file) appears on your GitHub profile.-->
 
 
 [Brandon Weigand](https://brandonweigand.github.io/BrandonWeigand/)
 
-<img src="./bug.svg" alt="left face" align="left" width="42" height="42"> 
-<!--
-**BrandonWeigand/BrandonWeigand** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# images load
+<img src="./img/web_stack.svg" alt="webstack icons" align="left" width="300" height="300"> 
 
-testing github readme features
 
-Here are some ideas to get you started:
+<ul>
+    <li>first</li>
+    <li>second</li>
+    <li>third</li>
+</ul>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<ol>
+    <li>first</li>
+    <li>second</li>
+    <li>third</li>
+</ol>
+
+<input type="text">
+<input type="button" value="button">
+<input type="checkbox" name="" id="">
+<input type="color" name="" id="">
+<input type="date" name="" id="">
+<input type="email" name="" id="">
+<input type="file" name="" id="">
+<input type="range" name="" id="">
