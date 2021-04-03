@@ -1,10 +1,4 @@
-<style>
-    /* testing style on github page */
-    *{outline: 1px solid red;}
-</style>
-<script>
-    alert('testing github javascript');
-</script>
+
 
 [Brandon Weigand](https://brandonweigand.github.io/BrandonWeigand/)
 
