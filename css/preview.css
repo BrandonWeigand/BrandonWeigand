@@ -1,0 +1,122 @@
+/* --- */
+@keyframes svg_mobile_flyin{
+    0%{
+    opacity: 1;
+    transform: rotate(20deg) translate(-900px, 0px);
+    }
+    100%{
+    opacity: 1;
+    transform: rotate(0deg) translate(0px, 0px);
+    }
+}
+@keyframes svg_mobile_flyout{
+    0%{
+    opacity: 1;
+    transform: rotate(0deg) translate(0px, 0px);
+    }
+    100%{
+    opacity: 1;
+    transform: rotate(20deg) translate(-900px, 0px);
+    }
+}
+@keyframes svg_laptop_flyin{
+    0%{
+        transform: rotate(-40deg) translate(0px, -900px);
+    }
+    100%{
+        transform: rotate(0deg) translate(0px, 0px);
+    }
+}
+@keyframes svg_laptop_flyout{
+    0%{
+        transform: rotate(0deg) translate(0px, 0px);
+    }
+    100%{
+        transform: rotate(-40deg) translate(0px, -900px);
+    }
+}
+@keyframes svg_nametag_fade{
+    0%{opacity:0;}
+    100%{opacity: 1;}
+
+}
+
+a.web_preview>svg>g.mobile{
+    opacity: 0;
+    animation-name: svg_mobile_flyout;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+}
+a.web_preview>svg>g.laptop{
+    animation-name: svg_laptop_flyin;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-duration: 0.5s;
+}
+a.web_preview:active>svg>g.laptop,a.web_preview:focus>svg>g.laptop{
+    animation-name: svg_laptop_flyout;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+}
+a.web_preview:hover>svg>g.mobile{
+    opacity: 1;
+    animation-name: svg_mobile_flyin;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+}
+a.web_preview:active>svg>g.mobile,a.web_preview:focus>svg>g.mobile{
+    opacity: 1;
+    animation-name: svg_mobile_flyout;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+}
+
+a.web_preview>h2{
+    padding:0px;
+    margin:0px;
+    font-size: 2em;
+    width:100%;
+}
+a.web_preview>svg{
+    width:100%;
+    height:auto;
+    padding:0px;
+    margin:0px;
+}
+a.post_preview>div{
+    display:inline-block;
+    width:49%;
+    padding: 0px;
+    margin:0px;
+    text-align: left;
+    vertical-align: top;
+    opacity:0;
+    animation-name: svg_fade_out;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+a.post_preview>div>img{
+    margin:1em 1em 1em 0em;
+    border:outset #00eeff88 0.03in;
+    border-radius: 100%;
+}
+a.post_preview:hover>div{
+    opacity: 1;
+    animation-name: svg_fade_in;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-duration: 0.5s;
+}

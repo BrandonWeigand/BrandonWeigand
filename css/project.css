@@ -1,0 +1,18 @@
+/* projects */
+:root{--project_width:25%;}
+@media (orientation: portrait) {
+    :root{--project_width:85%;}
+}
+.project{
+    max-width: var(--project_width);
+    text-emphasis: none;
+    text-decoration: none;
+
+    color:black;
+}
+.project>h3{
+    font-weight: bolder;
+}
+.project>*{
+    width:100%;
+}

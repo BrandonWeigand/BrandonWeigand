@@ -1,0 +1,38 @@
+/* screens */
+.screen{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    overflow: auto;
+    background-color:white;
+    background-position: center;
+    background-size: cover;
+}
+/*
+.screen>*{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+*/
+@keyframes screenSwipeLeftIn{0%{left:100%;top:0px;}100%{left:0px;top:0px;}}
+@keyframes screenSwipeLeftOut{0%{left:0px;top:0px;}100%{left:-100%;top:0px;}}
+@keyframes screenSwipeRightIn{0%{left:-100%;top:0px;}100%{left:0px;top:0px;}}
+@keyframes screenSwipeRightOut{0%{left:0%;top:0px;}100%{left:100%;top:0px;}}
+@keyframes screenSwipeUpIn{0%{left:0px;top:100%;}100%{left:0px;top:0px;}}
+@keyframes screenSwipeUpOut{0%{left:0px;top:0px;}100%{left:0px;top:-100%;}}
+@keyframes screenSwipeDownIn{0%{left:0px;top:-100%;}100%{left:0px;top:0px;}}
+@keyframes screenSwipeDownOut{0%{left:0px;top:0px;}100%{left:0px;top:100%;}}
+.screenSwipeLeftIn{animation: screenSwipeLeftIn 0.75s 0s 1;}
+.screenSwipeLeftOut{animation: screenSwipeLeftOut 0.75s 0s 1;}
+.screenSwipeRightIn{animation: screenSwipeRightIn 0.75s 0s 1;}
+.screenSwipeRightOut{animation: screenSwipeRightOut 0.75s 0s 1;}
+.screenSwipeUpIn{animation: screenSwipeUpIn 0.75s 0s 1;}
+.screenSwipeUpOut{animation: screenSwipeUpOut 0.75s 0s 1;}
+.screenSwipeDownIn{animation: screenSwipeDownIn 0.75s 0s 1;}
+.screenSwipeDownOut{animation: screenSwipeDownOut 0.75s 0s 1;}
+.pop{
+    display: none !important;
+    opacity: 0 !important;
+}

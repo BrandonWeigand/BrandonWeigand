@@ -1,0 +1,171 @@
+:root{
+    --resume_fnt_color:black;
+    --resume_fnt_color_invert:white;
+    --resume_bck_color:rgb(245, 245, 245);
+}
+
+/* header */
+.resume header{
+    background-color: var(--resume_fnt_color);
+}
+.resume .contact{
+    display: inline-block;
+    width:45%;
+    margin:1em 0px 0px 1em;
+    vertical-align: middle;
+    text-anchor: middle;
+}
+.resume .contact a{
+    color:var(--resume_fnt_color_invert);
+    display: block;
+    text-align: right;
+    font-size: 2vmax;
+}
+.resume .contact_phone{text-align: right;vertical-align: middle;}
+.resume .contact_phone>a{
+    display: inline-block;
+}
+.resume .phone_gap{display:inline-block;width:2em;}
+
+.resume .title_img{width:100%;}
+
+/* GENERAL */
+
+.resume{
+    color:var(--resume_fnt_color);
+    background-color:white;
+    text-align:center;
+}
+.resume a{color:var(--resume_fnt_color);text-emphasis: none;text-decoration: none;}
+.resume h1,.resume h2,.resume h3,.resume h4{
+    color:var(--resume_fnt_color_invert);
+    background-color: var(--resume_fnt_color);
+    font-family:Arial, Helvetica;
+    text-emphasis: bold;
+    padding:0.25em;
+    margin:0px;
+    text-align: left;
+}
+.resume li{font-family:Arial, Helvetica;}
+.resume h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+    width:50%;
+    vertical-align: top;
+    font-size:5vmax;
+}
+.resume h2{
+    font-size:3vmax;
+    padding:0.75em;
+    text-align: right;
+    margin:1em 0px 1em 0px;
+}
+.resume h3{
+    font-size:2.5vmax;
+    text-align: right;
+    padding:0.25em 1em 0.25em 1em;
+    margin:1em 0px 1em 0px;
+}
+
+.resume .container{
+    display:inline-block;
+    background-color: var(--resume_bck_color);
+}
+.resume .col{display:inline-block;margin:0px;}
+/* LEFT COL */
+
+
+.resume .left.col{width: 40%;vertical-align: top;}
+.resume .container.skills{
+    padding:0.5em;
+    text-align: right;
+}
+.resume .lst_skills{
+    display:inline-block;
+    text-align: right;
+    font-size:1.5vmax;
+    width:70%;
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+    vertical-align: middle;
+}
+.resume .lst_skills+img{
+    padding:0px;
+    margin:0px;
+    width:16%;
+    vertical-align: middle;
+}
+.resume .qualifications a{
+    display: block;
+    text-align: right;
+    font-family:Arial, Helvetica;
+    font-size:2vmax;
+}
+
+/* RIGHT COL */
+.resume .right.col{
+    margin-left:1.5em;
+    width: 55%;
+    vertical-align: top;
+}
+.resume .right.col>h3{text-align: left;}
+.resume .work_history{
+    width:100%;
+    margin-bottom:1em;
+}
+.resume h4{
+    display:inline-block;
+    width:45%;
+    text-align: left;
+    background-color: transparent;
+    color:var(--resume_fnt_color);
+    padding:1em;
+    margin:0px;
+    font-size: 2vmax;
+}
+.resume .title_job{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+    display:inline-block;
+    vertical-align: middle;
+    width:45%;
+    text-align: left;
+    text-emphasis: bold;
+    font-size: 1.5vmax;
+}
+.resume .date_array{
+    display: inline-block;
+    width:100%;
+    vertical-align: top;
+    font-size: 1vmax;
+}
+.resume .date_gap{
+    display: inline-block;
+    width:60%;
+}
+.resume .job_description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vmax;
+    min-height:3vmax;
+    text-emphasis: none;
+    text-align: left;
+    padding: 0px 1em 1em 1em;
+}
+
+/* FOOTER */
+.resume hr.black_fill{
+    height:1em;
+    background-color: var(--resume_fnt_color);
+}
+
+/* Mobile */
+@media screen and (orientation: portrait){
+    .resume .col{width:100% !important;margin-left:0px !important;}
+    .resume .lst_skills{font-size: 2.5vmax;}
+    .resume header{text-align: center;overflow: hidden;}
+    .resume h1{width:100%;text-align: center;}
+    .resume .contact,.resume .contact_phone{width:100%;text-align: left;}
+    .resume .contact a{display:inline-block;width:44%;text-align: left;}
+    .resume .phone_gap{width:0px;}
+}

@@ -1,0 +1,22 @@
+.btn{
+    opacity: 1;
+    text-emphasis: none;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    text-anchor: middle;
+    display: inline-block;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.btn:active{
+    opacity: 0.5;
+}
+.btn:focus{
+    opacity: 0.75;
+}
+img.btn{
+    padding-bottom: 0.3em;
+    background-color: rgba(0,0,0,0);
+}

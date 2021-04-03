@@ -1,0 +1,27 @@
+nav.navmenu{
+    top:1rem;
+    right:1.5rem;
+    position: fixed;
+    z-index: 999999999;
+}
+nav.navmenu>ul,
+nav.navmenu>ol{
+    direction: rtl;
+    text-align: right;
+    vertical-align: top;
+    list-style: none;
+    margin:0px 1em 0px 1em;
+    padding:0px;
+}
+nav.navmenu>div::before{
+    content: "☰";
+}
+li.nav-screen::before{
+    content:"☆";
+}
+
+li.nav-screen:hover::before,
+li.nav-screen:focus::before,
+li.nav-screen:active::before{
+    content:"★";
+}

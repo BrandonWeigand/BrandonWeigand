@@ -1,0 +1,20 @@
+/* accordians */
+.accordian{
+    display:inline-block;
+    height:0px;
+    width:0px;
+    opacity: 0;
+    font-size: 0px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+*:hover>.accordian,
+*:active>.accordian,
+*:focus>.accordian{
+    height:auto;
+    width:auto;
+    opacity: 1;
+    font-size: initial;
+    padding:1.5em !important;
+}
