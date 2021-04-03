@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="864px" height="864px" viewBox="0 0 864 864" enable-background="new 0 0 864 864" xml:space="preserve">
+<g id="Graphic">
+	<defs>
+		<polygon id="SVGID_1_" points="310.529,691.745 165.279,440.162 310.528,188.583 601.028,188.583 746.278,440.162 
+			601.028,691.745 		"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g transform="matrix(1 0 0 1 3.399891e-006 1.672504e-006)" clip-path="url(#SVGID_2_)">
+		
+			<image overflow="visible" width="376" height="480" xlink:href="../../underscoreui.altervista.org/portfolio/profile.jpg"  transform="matrix(1.5574 0 0 1.5574 166.2783 140.4512)">
+		</image>
+	</g>
+	<use xlink:href="#SVGID_1_"  overflow="visible" fill="none" stroke="#000000" stroke-width="11" stroke-miterlimit="10"/>
+</g>
+<text transform="matrix(0.8746 -0.4848 0.4848 0.8746 108.5313 238.1504)" font-family="'Impact'" font-size="84.1754">Brandon</text>
+<text transform="matrix(0.8698 0.4935 -0.4935 0.8698 535.2803 93.1353)" font-family="'Impact'" font-size="81.3562">Weigand</text>
+<text transform="matrix(0.8627 0.5058 -0.5058 0.8627 83.4185 663.0547)" font-family="'Impact'" font-size="68.3161">Interactive</text>
+<text transform="matrix(0.8628 -0.5056 0.5056 0.8628 575.042 821.626)" font-family="'Impact'" font-size="67.6186">Developer</text>
+</svg>
