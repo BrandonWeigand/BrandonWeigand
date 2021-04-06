@@ -3,6 +3,13 @@
 ** im using https://brandonweigand.github.io/BrandonWeigand/ instead of BrandonWeigand.tk for the links, just incase the third party domain ever fails my portfolio can still be linked
 -->
 <!-- original img size width="62" height="70" --> 
+<h1 width="500" align='center'><b><a id='portfolio' href="https://brandonweigand.github.io/BrandonWeigand/" target="_blank">Brandon Weigand</a></b></h1>
+<br>
+<h1 align='center'><img src="./img/web_stack.svg" alt="webstack icons" width="250" height="150"></h1>
+<br>
+<h5>After 16 Years of development experience, I thought it was time to build a Github Profile</h5>
+<h3>Please check out my portfolio at <a href="https://brandonweigand.github.io/BrandonWeigand/">BrandonWeigand.tk</a></h3>
+<hr>
 <h6 id='stack' align='center'>STACK</h6>
 <p align='center'>
     <a href=''><img src="./img/hex_wordpress.svg" alt="webstack icon wordpress" align="center" width="18" height="20"></a>
@@ -17,13 +24,3 @@
     <a href=''><img src="./img/hex_python.svg" alt="webstack icon python" align="center" width="18" height="20"></a>
 </p>
 <hr>
-<h1 width="500" align='center'><b><a id='portfolio' href="https://brandonweigand.github.io/BrandonWeigand/" target="_blank">Brandon Weigand</a></b><img src="./img/web_stack.svg" alt="webstack icons" width="250" height="150" align='center'></h1>
-
-<br>
-
-<h5>After 16 Years of development experience, I thought it was time to build a Github Profile</h5>
-
-<h3>Please check out my portfolio at <a href="https://brandonweigand.github.io/BrandonWeigand/">BrandonWeigand.tk</a></h3>
-<hr>
-
-
